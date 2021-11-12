@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    list-style: none;
+    font-weight: normal;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1635349417_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_177f83bb6c0897f8790437a8e5d426c36b070b02");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-logo {
+    padding-left: 8vw;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    padding-left: 1.5vw;
+}
+
+.projeto-vermelho {
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 2vw;
+    margin-top: 6vh;
+    color: white;
+}
+
+.universo {
+    font-weight: bolder;
+}
+
+.box-list {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 7.2vh;
+    padding-left: 30vw;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+.images {
+    width: 100%;
+    position: absolute;
+    bottom: 20vh;
+}
+
+.image-geralt {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    height: 90vh;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.thewitcher {
+    display: block;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    height: 5vh;
+    margin: 0 auto;
+}
